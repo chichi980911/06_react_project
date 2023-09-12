@@ -2,13 +2,22 @@
 import { useState } from 'react';
 import './App.css';
 import data from './data.js';
+import { Routes,Route } from 'react-router-dom';
 
 function App() {
-  let [mem] = useState(data);
-  
+  let [mem,setmem] = useState(data);
   
   return (
+
     <div className="App">
+
+<Routes>
+  <Route path='/' element={
+    <></>
+  }/>
+  <Route/>
+  </Routes>
+  
       <div style={{textAlign:'center', fontSize:'20px' ,marginBottom:'20px' }}><b>글작성</b></div>
       <table className='fd-table'>
         <thead className='fd-thead'>
@@ -25,7 +34,7 @@ function App() {
          {
           mem.map((a,i)=>{
             return (
-              <Member mem={mem} i={i}   ></Member>
+              <Member mem={mem} i={i} setmem={setmem}  ></Member>
             )
           })
 
@@ -53,7 +62,9 @@ function Member(props){
   <td>{props.mem[props.i].hobby}</td>
   <td>{props.mem[props.i].born}</td>
   <td><button onClick={() =>{
-    
+    let copy=[...props.mem];
+    copy.splice(props.i ,1);
+    props.setmem(copy);
      
       
    
