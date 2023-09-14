@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+	font-family: "Noto Sans KR";
+	src: url('./font/NotoSansKR-VariableFont_wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+

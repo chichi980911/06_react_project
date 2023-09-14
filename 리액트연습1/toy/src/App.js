@@ -2,6 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
 import { Routes, Route } from 'react-router-dom';
+import '../src/img/상체.jpg';
+import '../src/img/하체.jpg';
+
 
 
 function App() {
@@ -11,7 +14,7 @@ function App() {
         <Navbar bg="dark" variant="dark">
           <Navbar.Brand href="#home">💪 </Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="/">상세페이지</Nav.Link>
+            <Nav.Link href="/" >상세페이지</Nav.Link>
             <Nav.Link href="/detail">등록페이지</Nav.Link>
           </Nav>
         </Navbar>
@@ -31,7 +34,7 @@ function App() {
         <Row>
           <Col>
           <h4>상체</h4>
-          <img src='../src/img/상체/png' alt=''></img>
+          <img ></img>
           </Col>
           <Col>
           <h4>하체</h4>
