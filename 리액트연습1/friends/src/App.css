@@ -1,17 +1,8 @@
-.frinedlist{
-  
-  text-align: center;
-    padding: 20px;
+table{
+  margin: auto;
+  width: 500px;
+}
 
-}
-.frinedlist table{
-  width: 600px;
-  height: 300px;
-  border: 1px solid gray;
-  margin-left:auto; 
-    margin-right:auto;
-  
-}
 
 .App {
   text-align: center;

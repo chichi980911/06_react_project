@@ -1,26 +1,24 @@
+
+.main-bg{
+  height: 400px;
+  background-color: rgb(44, 41, 41);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-writer{
+    position: absolute;
+     top:30%;
+     left:10%;
+     color: white;
+     z-index: 2;
+     text-align: center;
+
+}
+
 .App {
   text-align: center;
 }
-
-thead{
-  background-color: rgb(240, 240, 240);
-  color: #282c34  ;
-}
-
-table, td, th {
-  border-collapse: collapse;
-  padding: 10px;
-}
-
-tbody>tr{
-  border-bottom: 1px solid lightgray;
-  height: 30px;
-}
-button{
-  height: 40px;
-  margin: 10px;
-}
-
 
 .App-logo {
   height: 40vmin;

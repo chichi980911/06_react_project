@@ -1,22 +1,22 @@
 let data = [
-  {
-      id : '1',
-      name : "김상호",
-      hobby : "낚시하기",
-      birthday : "1998-01-01"
-  },
-  {
-      id : '2',
-      name : "윤관현",
-      hobby : "공부하기",
-      birthday : "1993-01-02"
-  },
-  {
-      id : '3',
-      name : "홍사원",
-      hobby : "잠자기",
-      birthday : "1993-01-03"
-  },
+    {
+        id : '1',
+        name : "김현우",
+        hobby : "로스트아크",
+        birthday : "1994-10-02"
+    },
+    {
+        id : '2',
+        name : "민병진형",
+        hobby : "칼퇴",
+        birthday : "1993-10-21"
+    },
+    {
+        id : '3',
+        name : "김시연강사님",
+        hobby : "소주마시기",
+        birthday : "1950-06-25"
+    },
 
 ];
 
